@@ -18,16 +18,28 @@
             crossorigin="anonymous"
         />
         <link
-            href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text:500&display=swap"
+            href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="/styles.css" />
     </head>
 
     <body>
+        <div>
+            <nav>
+                <a href="/" class="noStyle">
+                    <img src="./logo150px.png" className="logo" />
+                </a>
+                <a href="about.html">About Us</a>
+                <a href="slimes.html">Slimes</a>
+                <a href="">Coupons</a>
+                <a href="">FAQ</a>
+            </nav>
+        </div>
         <div class="about">
             <h1>
                 ABOUT US
+                <hr />
             </h1>
             <h2>
                 We make the best slimes sponsored by the Kumar family. Our
@@ -39,8 +51,8 @@
             </h2>
             <img class="aboutUspic" src="./us.jpg" />
         </div>
-        <div class="formContainer">
-            <form action="/submit.html">
+        <div class="formContainer" id="hello">
+            <form action="/submit.html" class="form">
                 <div>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="user_name" required />
@@ -107,7 +119,7 @@
                         name="language"
                         value="Spanish"
                     />
-                    <label for="Spanisha">Spanish</label>
+                    <label for="Spanish">Spanish</label>
                 </div>
                 <div>
                     <input
