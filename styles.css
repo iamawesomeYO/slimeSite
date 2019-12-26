@@ -92,6 +92,12 @@ body {
   width: 100px;
   margin: 0 auto;
 }
+
+.unciornSlime {
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+}
 .shopTitle h2 {
   font-size: 500%;
   margin: 0 auto;
